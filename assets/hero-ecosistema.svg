@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 950" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0f4c81"/>
+    <stop offset="0.45" stop-color="#1b6f79"/>
+    <stop offset="1" stop-color="#5f9f39"/>
+  </linearGradient>
+  <linearGradient id="river" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#dcefff" stop-opacity=".5"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="950" fill="url(#sky)"/>
+<circle cx="1300" cy="160" r="120" fill="#f9d616" opacity=".75"/>
+<path d="M0 520 C240 330 420 390 620 270 C850 135 1040 315 1225 225 C1390 145 1510 205 1600 150 L1600 950 L0 950 Z" fill="#0a3159" opacity=".46"/>
+<path d="M0 610 C220 475 380 530 610 430 C880 315 1040 480 1260 390 C1425 320 1520 360 1600 340 L1600 950 L0 950 Z" fill="#0b5f4a" opacity=".60"/>
+<path d="M0 740 C230 650 420 720 640 620 C890 510 1050 685 1265 575 C1425 500 1530 555 1600 525 L1600 950 L0 950 Z" fill="#113b24" opacity=".74"/>
+<path d="M720 950 C765 860 805 780 770 680 C742 600 765 545 850 500 C940 453 1050 470 1110 530 C1170 592 1160 680 1085 740 C1015 795 940 842 975 950 Z" fill="url(#river)" opacity=".65"/>
+<g opacity=".28" fill="#fff">
+  <circle cx="170" cy="150" r="4"/><circle cx="240" cy="200" r="3"/><circle cx="400" cy="125" r="4"/>
+  <circle cx="1180" cy="95" r="3"/><circle cx="1460" cy="275" r="5"/>
+</g>
+</svg>
